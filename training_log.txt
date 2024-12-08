@@ -1,0 +1,242 @@
+(pyvenv) francesco@BASEALFA:~/Documents/Materiale Università/Third year/Deep Learning/Exercises$ /home/francesco/miniconda3/envs/pyvenv/bin/python "/home/francesco/Documents/Materiale Università/Third year/Deep Learning/Exercises/cnn_multiconv_batchnorm.py"
+Epoch [1/200], Loss: 0.6727, Accuracy: 80.40%
+Validation Loss: 0.3692, Validation Accuracy: 83.92%
+Modello salvato con accuracy: 83.92%
+Epoch [2/200], Loss: 0.3917, Accuracy: 85.39%
+Validation Loss: 0.4130, Validation Accuracy: 81.90%
+No improvement in validation accuracy for 1 epochs.
+Epoch [3/200], Loss: 0.3346, Accuracy: 87.46%
+Validation Loss: 0.2917, Validation Accuracy: 89.68%
+Modello salvato con accuracy: 89.68%
+Epoch [4/200], Loss: 0.3013, Accuracy: 89.23%
+Validation Loss: 0.2881, Validation Accuracy: 91.67%
+Modello salvato con accuracy: 91.67%
+Epoch [5/200], Loss: 0.3328, Accuracy: 88.31%
+Validation Loss: 0.2402, Validation Accuracy: 90.61%
+No improvement in validation accuracy for 1 epochs.
+Epoch [6/200], Loss: 0.3019, Accuracy: 89.68%
+Validation Loss: 0.3620, Validation Accuracy: 87.70%
+No improvement in validation accuracy for 2 epochs.
+Epoch [7/200], Loss: 0.2970, Accuracy: 90.12%
+Validation Loss: 0.2090, Validation Accuracy: 93.11%
+Modello salvato con accuracy: 93.11%
+Epoch [8/200], Loss: 0.2291, Accuracy: 91.75%
+Validation Loss: 0.2722, Validation Accuracy: 87.66%
+No improvement in validation accuracy for 1 epochs.
+Epoch [9/200], Loss: 0.2379, Accuracy: 91.35%
+Validation Loss: 0.2027, Validation Accuracy: 92.50%
+No improvement in validation accuracy for 2 epochs.
+Epoch [10/200], Loss: 0.2050, Accuracy: 92.76%
+Validation Loss: 0.2359, Validation Accuracy: 92.21%
+No improvement in validation accuracy for 3 epochs.
+Epoch [11/200], Loss: 0.2198, Accuracy: 92.32%
+Validation Loss: 0.7809, Validation Accuracy: 83.95%
+No improvement in validation accuracy for 4 epochs.
+Epoch [12/200], Loss: 0.2250, Accuracy: 91.82%
+Validation Loss: 0.1998, Validation Accuracy: 92.98%
+No improvement in validation accuracy for 5 epochs.
+Epoch [13/200], Loss: 0.1930, Accuracy: 93.26%
+Validation Loss: 0.2076, Validation Accuracy: 92.82%
+No improvement in validation accuracy for 6 epochs.
+Epoch [14/200], Loss: 0.1878, Accuracy: 93.26%
+Validation Loss: 0.1842, Validation Accuracy: 93.27%
+Modello salvato con accuracy: 93.27%
+Epoch [15/200], Loss: 0.1948, Accuracy: 93.39%
+Validation Loss: 0.1485, Validation Accuracy: 95.16%
+Modello salvato con accuracy: 95.16%
+Epoch [16/200], Loss: 0.1659, Accuracy: 94.00%
+Validation Loss: 0.2451, Validation Accuracy: 90.48%
+No improvement in validation accuracy for 1 epochs.
+Epoch [17/200], Loss: 0.1818, Accuracy: 93.55%
+Validation Loss: 0.1863, Validation Accuracy: 93.75%
+No improvement in validation accuracy for 2 epochs.
+Epoch [18/200], Loss: 0.1681, Accuracy: 93.93%
+Validation Loss: 0.1658, Validation Accuracy: 93.82%
+No improvement in validation accuracy for 3 epochs.
+Epoch [19/200], Loss: 0.1530, Accuracy: 94.65%
+Validation Loss: 0.2062, Validation Accuracy: 93.56%
+No improvement in validation accuracy for 4 epochs.
+Epoch [20/200], Loss: 0.1303, Accuracy: 95.37%
+Validation Loss: 0.1506, Validation Accuracy: 94.81%
+No improvement in validation accuracy for 5 epochs.
+Epoch [21/200], Loss: 0.1197, Accuracy: 95.86%
+Validation Loss: 0.1350, Validation Accuracy: 95.35%
+Modello salvato con accuracy: 95.35%
+Epoch [22/200], Loss: 0.1216, Accuracy: 95.82%
+Validation Loss: 0.1275, Validation Accuracy: 95.71%
+Modello salvato con accuracy: 95.71%
+Epoch [23/200], Loss: 0.1170, Accuracy: 95.77%
+Validation Loss: 0.1350, Validation Accuracy: 95.74%
+Modello salvato con accuracy: 95.74%
+Epoch [24/200], Loss: 0.1146, Accuracy: 95.88%
+Validation Loss: 0.1418, Validation Accuracy: 95.39%
+No improvement in validation accuracy for 1 epochs.
+Epoch [25/200], Loss: 0.1145, Accuracy: 95.88%
+Validation Loss: 0.1268, Validation Accuracy: 95.39%
+No improvement in validation accuracy for 2 epochs.
+Epoch [26/200], Loss: 0.1111, Accuracy: 95.99%
+Validation Loss: 0.1609, Validation Accuracy: 94.71%
+No improvement in validation accuracy for 3 epochs.
+Epoch [27/200], Loss: 0.1170, Accuracy: 95.75%
+Validation Loss: 0.1537, Validation Accuracy: 95.23%
+No improvement in validation accuracy for 4 epochs.
+Epoch [28/200], Loss: 0.1219, Accuracy: 95.66%
+Validation Loss: 0.1443, Validation Accuracy: 95.42%
+No improvement in validation accuracy for 5 epochs.
+Epoch [29/200], Loss: 0.1039, Accuracy: 96.34%
+Validation Loss: 0.1174, Validation Accuracy: 95.83%
+Modello salvato con accuracy: 95.83%
+Epoch [30/200], Loss: 0.0993, Accuracy: 96.54%
+Validation Loss: 0.1161, Validation Accuracy: 96.48%
+Modello salvato con accuracy: 96.48%
+Epoch [31/200], Loss: 0.1208, Accuracy: 95.95%
+Validation Loss: 0.1484, Validation Accuracy: 95.26%
+No improvement in validation accuracy for 1 epochs.
+Epoch [32/200], Loss: 0.1005, Accuracy: 96.32%
+Validation Loss: 0.1277, Validation Accuracy: 95.45%
+No improvement in validation accuracy for 2 epochs.
+Epoch [33/200], Loss: 0.1098, Accuracy: 95.98%
+Validation Loss: 0.1486, Validation Accuracy: 95.03%
+No improvement in validation accuracy for 3 epochs.
+Epoch [34/200], Loss: 0.1002, Accuracy: 96.68%
+Validation Loss: 0.1323, Validation Accuracy: 95.51%
+No improvement in validation accuracy for 4 epochs.
+Epoch [35/200], Loss: 0.0829, Accuracy: 97.03%
+Validation Loss: 0.1075, Validation Accuracy: 96.54%
+Modello salvato con accuracy: 96.54%
+Epoch [36/200], Loss: 0.0746, Accuracy: 97.34%
+Validation Loss: 0.1211, Validation Accuracy: 96.16%
+No improvement in validation accuracy for 1 epochs.
+Epoch [37/200], Loss: 0.0726, Accuracy: 97.50%
+Validation Loss: 0.1101, Validation Accuracy: 96.57%
+Modello salvato con accuracy: 96.57%
+Epoch [38/200], Loss: 0.0724, Accuracy: 97.40%
+Validation Loss: 0.1100, Validation Accuracy: 96.44%
+No improvement in validation accuracy for 1 epochs.
+Epoch [39/200], Loss: 0.0719, Accuracy: 97.51%
+Validation Loss: 0.1458, Validation Accuracy: 95.19%
+No improvement in validation accuracy for 2 epochs.
+Epoch [40/200], Loss: 0.0601, Accuracy: 97.90%
+Validation Loss: 0.0972, Validation Accuracy: 96.67%
+Modello salvato con accuracy: 96.67%
+Epoch [41/200], Loss: 0.0568, Accuracy: 97.87%
+Validation Loss: 0.1018, Validation Accuracy: 96.86%
+Modello salvato con accuracy: 96.86%
+Epoch [42/200], Loss: 0.0529, Accuracy: 98.11%
+Validation Loss: 0.1090, Validation Accuracy: 96.57%
+No improvement in validation accuracy for 1 epochs.
+Epoch [43/200], Loss: 0.0509, Accuracy: 98.22%
+Validation Loss: 0.0928, Validation Accuracy: 96.92%
+Modello salvato con accuracy: 96.92%
+Epoch [44/200], Loss: 0.0554, Accuracy: 98.04%
+Validation Loss: 0.1225, Validation Accuracy: 96.92%
+No improvement in validation accuracy for 1 epochs.
+Epoch [45/200], Loss: 0.0467, Accuracy: 98.51%
+Validation Loss: 0.1240, Validation Accuracy: 96.80%
+No improvement in validation accuracy for 2 epochs.
+Epoch [46/200], Loss: 0.0488, Accuracy: 98.31%
+Validation Loss: 0.0974, Validation Accuracy: 96.86%
+No improvement in validation accuracy for 3 epochs.
+Epoch [47/200], Loss: 0.0465, Accuracy: 98.37%
+Validation Loss: 0.1127, Validation Accuracy: 96.54%
+No improvement in validation accuracy for 4 epochs.
+Epoch [48/200], Loss: 0.0439, Accuracy: 98.50%
+Validation Loss: 0.1234, Validation Accuracy: 96.89%
+No improvement in validation accuracy for 5 epochs.
+Epoch [49/200], Loss: 0.0363, Accuracy: 98.76%
+Validation Loss: 0.0988, Validation Accuracy: 96.73%
+No improvement in validation accuracy for 6 epochs.
+Epoch [50/200], Loss: 0.0408, Accuracy: 98.61%
+Validation Loss: 0.1048, Validation Accuracy: 96.99%
+Modello salvato con accuracy: 96.99%
+Epoch [51/200], Loss: 0.0382, Accuracy: 98.65%
+Validation Loss: 0.1262, Validation Accuracy: 96.83%
+No improvement in validation accuracy for 1 epochs.
+Epoch [52/200], Loss: 0.0359, Accuracy: 98.78%
+Validation Loss: 0.1175, Validation Accuracy: 97.24%
+Modello salvato con accuracy: 97.24%
+Epoch [53/200], Loss: 0.0350, Accuracy: 98.70%
+Validation Loss: 0.0978, Validation Accuracy: 97.05%
+No improvement in validation accuracy for 1 epochs.
+Epoch [54/200], Loss: 0.0356, Accuracy: 98.83%
+Validation Loss: 0.1193, Validation Accuracy: 97.18%
+No improvement in validation accuracy for 2 epochs.
+Epoch [55/200], Loss: 0.0358, Accuracy: 98.73%
+Validation Loss: 0.0951, Validation Accuracy: 97.05%
+No improvement in validation accuracy for 3 epochs.
+Epoch [56/200], Loss: 0.0332, Accuracy: 98.97%
+Validation Loss: 0.1183, Validation Accuracy: 97.05%
+No improvement in validation accuracy for 4 epochs.
+Epoch [57/200], Loss: 0.0337, Accuracy: 98.86%
+Validation Loss: 0.0931, Validation Accuracy: 97.31%
+Modello salvato con accuracy: 97.31%
+Epoch [58/200], Loss: 0.0344, Accuracy: 98.88%
+Validation Loss: 0.0970, Validation Accuracy: 96.99%
+No improvement in validation accuracy for 1 epochs.
+Epoch [59/200], Loss: 0.0331, Accuracy: 98.88%
+Validation Loss: 0.1119, Validation Accuracy: 97.28%
+No improvement in validation accuracy for 2 epochs.
+Epoch [60/200], Loss: 0.0307, Accuracy: 99.11%
+Validation Loss: 0.1177, Validation Accuracy: 97.12%
+No improvement in validation accuracy for 3 epochs.
+Epoch [61/200], Loss: 0.0301, Accuracy: 99.04%
+Validation Loss: 0.1156, Validation Accuracy: 97.21%
+No improvement in validation accuracy for 4 epochs.
+Epoch [62/200], Loss: 0.0301, Accuracy: 99.08%
+Validation Loss: 0.1441, Validation Accuracy: 97.28%
+No improvement in validation accuracy for 5 epochs.
+Epoch [63/200], Loss: 0.0296, Accuracy: 99.20%
+Validation Loss: 0.1414, Validation Accuracy: 97.08%
+No improvement in validation accuracy for 6 epochs.
+Epoch [64/200], Loss: 0.0290, Accuracy: 99.06%
+Validation Loss: 0.1427, Validation Accuracy: 97.02%
+No improvement in validation accuracy for 7 epochs.
+Epoch [65/200], Loss: 0.0294, Accuracy: 99.03%
+Validation Loss: 0.1194, Validation Accuracy: 97.34%
+Modello salvato con accuracy: 97.34%
+Epoch [66/200], Loss: 0.0291, Accuracy: 99.09%
+Validation Loss: 0.1234, Validation Accuracy: 97.12%
+No improvement in validation accuracy for 1 epochs.
+Epoch [67/200], Loss: 0.0298, Accuracy: 99.08%
+Validation Loss: 0.1220, Validation Accuracy: 97.05%
+No improvement in validation accuracy for 2 epochs.
+Epoch [68/200], Loss: 0.0292, Accuracy: 99.10%
+Validation Loss: 0.1472, Validation Accuracy: 97.02%
+No improvement in validation accuracy for 3 epochs.
+Epoch [69/200], Loss: 0.0295, Accuracy: 99.04%
+Validation Loss: 0.1206, Validation Accuracy: 97.31%
+No improvement in validation accuracy for 4 epochs.
+Epoch [70/200], Loss: 0.0311, Accuracy: 98.97%
+Validation Loss: 0.1212, Validation Accuracy: 96.92%
+No improvement in validation accuracy for 5 epochs.
+Epoch [71/200], Loss: 0.0294, Accuracy: 98.94%
+Validation Loss: 0.1433, Validation Accuracy: 97.12%
+No improvement in validation accuracy for 6 epochs.
+Epoch [72/200], Loss: 0.0292, Accuracy: 99.07%
+Validation Loss: 0.1129, Validation Accuracy: 97.15%
+No improvement in validation accuracy for 7 epochs.
+Epoch [73/200], Loss: 0.0291, Accuracy: 99.15%
+Validation Loss: 0.1449, Validation Accuracy: 97.05%
+No improvement in validation accuracy for 8 epochs.
+Epoch [74/200], Loss: 0.0297, Accuracy: 98.99%
+Validation Loss: 0.1208, Validation Accuracy: 96.83%
+No improvement in validation accuracy for 9 epochs.
+Epoch [75/200], Loss: 0.0318, Accuracy: 99.02%
+Validation Loss: 0.1459, Validation Accuracy: 96.89%
+No improvement in validation accuracy for 10 epochs.
+Epoch [76/200], Loss: 0.0304, Accuracy: 99.01%
+Validation Loss: 0.1155, Validation Accuracy: 97.28%
+No improvement in validation accuracy for 11 epochs.
+Epoch [77/200], Loss: 0.0305, Accuracy: 98.93%
+Validation Loss: 0.1434, Validation Accuracy: 97.05%
+No improvement in validation accuracy for 12 epochs.
+Epoch [78/200], Loss: 0.0307, Accuracy: 98.99%
+Validation Loss: 0.1175, Validation Accuracy: 97.28%
+No improvement in validation accuracy for 13 epochs.
+Epoch [79/200], Loss: 0.0314, Accuracy: 99.00%
+Validation Loss: 0.1448, Validation Accuracy: 97.21%
+No improvement in validation accuracy for 14 epochs.
+Epoch [80/200], Loss: 0.0296, Accuracy: 99.08%
+Validation Loss: 0.1231, Validation Accuracy: 97.05%
+No improvement in validation accuracy for 15 epochs.
+Early stopping triggered!
