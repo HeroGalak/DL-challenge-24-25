@@ -5,7 +5,7 @@ from torchvision import datasets, transforms, models
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 import torch.nn as nn
 
-model_save_path = "/home/francesco/Downloads/best_model_resnet.pth"
+model_save_path = "/path/to/saved_model.pth"
 
 transform = transforms.Compose([
     transforms.RandomHorizontalFlip(),
@@ -13,8 +13,8 @@ transform = transforms.Compose([
     transforms.ToTensor()
 ])
 
-train_dataset = datasets.ImageFolder(root="/home/francesco/Downloads/dl2425_challenge_dataset/train", transform=transform)
-valid_dataset = datasets.ImageFolder(root="/home/francesco/Downloads/dl2425_challenge_dataset/val", transform=transform)
+train_dataset = datasets.ImageFolder(root="path/to/train/dataset", transform=transform)
+valid_dataset = datasets.ImageFolder(root="path/to/validation/dataset", transform=transform)
 
 train_loader = DataLoader(train_dataset, batch_size=128, shuffle=True, num_workers=6)
 valid_loader = DataLoader(valid_dataset, batch_size=128, shuffle=False, num_workers=6)
