@@ -20,25 +20,25 @@ def set_seed(seed=42):
 set_seed(42)  # set seed for reproducibility
 
 # path where best model is saved
-model_save_path = "/home/francesco/Downloads/best_model_convnet.pth"
+model_save_path = "/path/to/saved_model.pth"
 best_valid_accuracy = 0.0
 
-# Data augmentation and conversion to tensor
+# data augmentation and conversion to tensor
 transform = transforms.Compose([
     transforms.RandomHorizontalFlip(),
     transforms.RandomRotation(15),
     transforms.ToTensor()
 ])
 
-# Dataset path
-train_dataset = datasets.ImageFolder(root="/home/francesco/Downloads/dl2425_challenge_dataset/train", transform=transform)
-valid_dataset = datasets.ImageFolder(root="/home/francesco/Downloads/dl2425_challenge_dataset/val", transform=transform)
+# dataset paths
+train_dataset = datasets.ImageFolder(root="/path/to/train/dataset", transform=transform)
+valid_dataset = datasets.ImageFolder(root="/path/to/validation/dataset", transform=transform)
 
-# Load the dataset
+# load the dataset
 train_loader = DataLoader(train_dataset, batch_size=128, shuffle=True, num_workers=8)
 valid_loader = DataLoader(valid_dataset, batch_size=128, shuffle=False, num_workers=8)
 
-# Model definition
+# model definition
 class ConvNet(nn.Module):
     def __init__(self):
         super(ConvNet, self).__init__()
@@ -59,15 +59,15 @@ class ConvNet(nn.Module):
         x = self.pool(F.relu(self.bn2(self.conv2(x))))
         x = self.pool(F.relu(self.bn3(self.conv3(x))))
         x = self.pool(F.relu(self.bn4(self.conv4(x))))
-        x = x.view(x.size(0), -1)  # Flatten
+        x = x.view(x.size(0), -1)  # flatten
         x = self.dropout(x) # drop a neuron with probability 0.5
-        x = torch.sigmoid(self.fc(x))  # Output a probability
+        x = torch.sigmoid(self.fc(x))  # output a probability
         return x
 
-# Execute training only if the file is directly executed
+# execute training only if the file is directly executed
 if __name__ == "__main__":
     model = ConvNet()
-    criterion = nn.BCELoss()  # Binary Cross Entropy Loss
+    criterion = nn.BCELoss()  # binary Cross Entropy Loss
     optimizer = torch.optim.Adam(model.parameters(), lr=0.001, weight_decay=1e-3) # Adam optimizer, starting LR, weight decay
     scheduler = ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=3) # halve LR after 3 epochs without improvement
     
@@ -132,7 +132,7 @@ if __name__ == "__main__":
             best_valid_accuracy = valid_accuracy
             torch.save(model.state_dict(), model_save_path)
             print(f"Modello salvato con accuracy: {best_valid_accuracy:.2f}%")
-            epochs_no_improve = 0  # Reset if a better accuracy is reached
+            epochs_no_improve = 0  # reset if a better accuracy is reached
         else:
             epochs_no_improve += 1
             print(f"No improvement in validation accuracy for {epochs_no_improve} epochs.")
