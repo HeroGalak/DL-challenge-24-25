@@ -66,7 +66,7 @@ class ConvNet(nn.Module):
 
 # Execute training only if the file is directly executed
 if __name__ == "__main__":
-    model = MultiConvNetWithBN()
+    model = ConvNet()
     criterion = nn.BCELoss()  # Binary Cross Entropy Loss
     optimizer = torch.optim.Adam(model.parameters(), lr=0.001, weight_decay=1e-3) # Adam optimizer, starting LR, weight decay
     scheduler = ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=3) # halve LR after 3 epochs without improvement
