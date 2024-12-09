@@ -13,8 +13,8 @@ transform = transforms.Compose([
     transforms.ToTensor()
 ])
 
-train_dataset = datasets.ImageFolder(root="path/to/train/dataset", transform=transform)
-valid_dataset = datasets.ImageFolder(root="path/to/validation/dataset", transform=transform)
+train_dataset = datasets.ImageFolder(root="/path/to/train/dataset", transform=transform)
+valid_dataset = datasets.ImageFolder(root="/path/to/validation/dataset", transform=transform)
 
 train_loader = DataLoader(train_dataset, batch_size=128, shuffle=True, num_workers=6)
 valid_loader = DataLoader(valid_dataset, batch_size=128, shuffle=False, num_workers=6)
