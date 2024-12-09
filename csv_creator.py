@@ -10,7 +10,7 @@ test_folder = "/path/to/test/dataset"
 model_path = "/path/to/best_model.pth"
 output_csv_path = "/path/to/output_predictions.csv"
 
-# Trasformazioni immagini
+# convert images to tensors
 transform = transforms.Compose([
     transforms.ToTensor()
 ])
