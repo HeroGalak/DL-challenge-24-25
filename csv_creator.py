@@ -6,9 +6,9 @@ from PIL import Image
 from cnn_model_multiconv import ConvNet  # import model
 
 # path configurations
-test_folder = "/home/francesco/Downloads/dl2425_challenge_dataset/test"
-model_path = "/home/francesco/Documents/Materiale Università/Third year/Deep Learning/Exercises/best_model_convnet_97_34.pth"
-output_csv_path = "/home/francesco/Downloads/output_predictions.csv"
+test_folder = "/path/to/test/dataset"
+model_path = "/path/to/best_model.pth"
+output_csv_path = "/path/to/output_predictions.csv"
 
 # Trasformazioni immagini
 transform = transforms.Compose([
